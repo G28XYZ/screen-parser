@@ -1,3 +1,4 @@
 /node_modules
 package-lock.json
-screen.jpg
+*.jpeg
+eng.traineddata

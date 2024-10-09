@@ -2,9 +2,10 @@
   "name": "screen-parser",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node ./src/main.ts",
+    "watch": "nodemon"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +15,8 @@
     "robotjs": "^0.6.0",
     "tesseract.js": "^5.1.1"
   },
-  "opencv4nodejs": {
-    "disableAutoBuild": "1"
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
   }
 }
